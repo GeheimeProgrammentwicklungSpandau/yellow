@@ -7,7 +7,7 @@
 	<?php $i = 1; ?>
 	<table>
 		<tr>
-			<?php while($i < 11):?>
+			<?php while($i < 4):?>
 				<td>
 					<?php echo $i;?>
 					<?php $i++;?>
