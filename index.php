@@ -4,15 +4,15 @@
 </head>
 
 <body>
-	<?php $i = 0; ?>
+	<?php $i = 1; ?>
 	<table>
 		<tr>
-			<?php while($i < 9):?>
+			<?php while($i < 11):?>
 				<td>
 					<?php echo $i;?>
 					<?php $i++;?>
 				</td>
-			<?php endwile; ?>
+			<?php endwhile; ?>
 		</tr>	
 	</table>
 </body>
